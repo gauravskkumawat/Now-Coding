@@ -1,0 +1,166 @@
+body{
+	background-color: #e0f5ff;
+}
+.top-div{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	margin: 0px;
+	width: 100%;
+	height: 200px;
+	background-color: #65d3ff;
+}
+.logo{
+	position: absolute;
+	top: 65px;
+}
+.logo-text{
+	font-family: "montserrat",futura;
+	color: #fff;
+}
+.logo-img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
+.second-div{
+	position: absolute;
+	top: 205px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: #333;
+}
+.btn{
+	position: relative;
+	width: 70%;
+	height: 50px;
+	border: none;
+	color: #fff;
+	background-color: transparent;
+	font-family: "montserrat",futura;
+	transition: 0.44s;
+}
+.btn:hover{
+	transform: scale(0.88);
+	background-color: #777;
+	cursor: pointer;
+}
+.third-div{
+	position:relative;
+	top: 260px;
+
+}
+.heading{
+	font-family: "montserrat",Century Gothic;
+	background-color: #65d3ff;
+}
+.text-box{
+	border: none;
+	border-bottom: 1px solid #333;
+	transition: 0.44s;
+	font-family: "montserrat",futura;
+	background-color: transparent;
+	margin: 7px;
+}
+.text-box:hover{
+	border-bottom:1px solid #49f;
+}
+.name{
+	font-family: "montserrat",futura;
+}
+.Order-btn{
+	width: 90%;
+	height: 40px;
+	border: none;
+	background-color: #65d3ff;
+	color: #fff;
+	font-family: "montserrat",futura;
+	transition: 0.66s;
+}
+.Order-btn:hover{
+	cursor: pointer;
+	color: #65d3ff;
+	background-color: #fff;
+}
+.or{
+	position: relative;
+	top: 270px;
+}
+h3{
+	font-family: sans-serif;
+	margin: 25px auto;
+	max-width: 550px;
+	position: relative;
+}
+h3:before{
+	content: "";
+	display: block;
+	width: 250px;
+	height: 2px;
+	background: #333;
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	z-index: -2;
+}
+h3:after{
+	content: "";
+	display: block;
+	width: 250px;
+	height: 2px;
+	background: #333;
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	z-index: -2;
+}
+span{
+	background-color: #ECF8FF;
+}
+.fourth-div{
+	position: relative;
+	top: 270px;
+}
+.o-btn1{
+	width: 160px;
+	height: 40px;
+	border: none;
+	color: #fff;
+	background-color: #ff6767;
+	font-family: "montserrat",futura;
+	transition: 0.66s;
+}
+.o-btn1:hover{
+	cursor: pointer;
+	background-color: #fff;
+	color:  #ff6767;
+}
+.o-btn2{
+	width: 160px;
+	height: 40px;
+	border: none;
+	color: #fff;
+	background-color: #2bc929;
+	font-family: "montserrat",futura;
+	transition: 0.66s;
+}
+.o-btn2:hover{
+	cursor: pointer;
+	background-color: #fff;
+	color: #2bc929;
+}
+.o-btn3{
+	width: 160px;
+	height: 40px;
+	border: none;
+	color: #fff;
+	background-color: #49f;
+	font-family: "montserrat",futura;
+	transition: 0.66s;
+}
+.o-btn3:hover{
+	cursor: pointer;
+	background-color: #fff;
+	color: #49f;
+}

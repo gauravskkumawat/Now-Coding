@@ -1,0 +1,40 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+table{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 90%;
+}
+button{
+	height: 100px;
+	width: 100px;
+	border: none;
+	background: none;
+	border-radius: 100%;
+	box-shadow: 0px 2px 20px #000;
+}
+.btn-fb,.btn-yt,.btn-insta,.btn-twtr{
+	font-size: 3em;
+	color: #a6a5a6;
+	transition: 0.6s;
+}
+.btn-fb:hover{
+	color: #3e73ff;
+	cursor: pointer;
+}
+.btn-yt:hover{
+	color: #f00;
+	cursor: pointer;
+}
+.btn-insta:hover{
+	color: #ff50a1;
+	cursor: pointer;
+}
+.btn-twtr:hover{
+	color: #00a5ff;
+	cursor: pointer;
+}

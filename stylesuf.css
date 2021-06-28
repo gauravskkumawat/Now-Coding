@@ -1,0 +1,70 @@
+.login-box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: rgba(180,180,180,0.4);
+	height: 400px;
+	width: 400px;
+	padding-top: 30px;
+}
+table{
+	height: 400px;
+	width: 380px;
+}
+.Heading{
+	font-size: 30px;
+	font-family: "margin",impact;
+    color: #FFF;
+}
+.logo-img{
+	position: absolute;
+	width: 80px;
+	border-radius: 100%;
+	left: 50%;
+	top: 16%;
+	transform: translate(-50%,-50%);
+}
+.Bg-img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+}
+.text{
+	border:none;
+	height: 40px;
+	width: 290px;
+	margin: 8px;
+	color: #fff;
+	font-family: "margin",Futura;
+	background-color: rgba(0,0,0,0.4);
+}
+.name{
+	color: #fff;
+	font-family: "margin",Futura;
+	margin: 5px;
+}
+.btn{
+	width: 95%;
+	height: 85%;
+	border:none;
+	font-size: 15px;
+	font-family: "margin",Futura;
+	color: #fff;
+	background-color: #49f;
+	transition: 0.44s;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #49f;
+	cursor: pointer;
+}
+.FP{
+	color:#49f;
+	transition: 0.44s;
+}
+.FP:hover{
+	color: #0094D8;
+}

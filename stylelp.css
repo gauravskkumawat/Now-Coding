@@ -1,0 +1,78 @@
+html,body{
+	margin: 0px;
+	padding:0px;
+	width: 100%;
+	height: 100%;
+}
+.nav-bar{
+	position: absolute;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.link{
+	color: #fff;
+	font-weight: bold;
+	font-family: dubai;
+}
+.b1{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background: url(imglp.jpg) no-repeat 50% 50%;
+	top: 0px;
+	display: table;
+	background-size: cover;
+}
+.content{
+	position: absolute;
+	right: 5%;
+	top: 60%;
+	transform: translateY(-50%);
+}
+.login-t{
+	height: 25em;
+	width: 25em;
+	background: rgba(0,0,0,0.1);
+	padding: 1em;
+	border-radius: 5px;
+}
+.head{
+	font-weight: bold;
+	font-family: arial;
+	font-size: 30px;
+	color: #fff;
+}
+.txt{
+	font-weight: bold;
+	font-family: dubai;
+	color: #fff;
+}
+.f-password{
+	font-family: dubai;
+	color: #007eff;
+}
+.input{
+	background: rgba(0,0,0,0.2);
+	width: 100%;
+	border: none;
+	height: 30px;
+	color: #fff;
+}
+.login{
+	width: 70%;
+	height: 3em;
+	font-weight: bold;
+	background: #00a8ff;
+	font-family: Century Gothic;
+	border: none;
+	color: #fff;
+	font-size: 15px;
+	transition: 0.66s;
+}
+.login:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #00a8ff;
+}
